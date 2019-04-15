@@ -1,0 +1,232 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit;
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* My shitty styles start from here on */
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    box-sizing: border-box;
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: 0 $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        padding: 0 $spacing-unit / 2;
+    }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+h1 {
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 28px;
+    }
+
+    &.page-title {
+        font-size: 48px;
+
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
+    }
+}
+h2 {
+    font-size: 28px;
+
+    @include media-query($on-laptop) {
+        font-size: 24px;
+    }
+}
+h3 {
+    font-size: 24px;
+
+    @include media-query($on-laptop) {
+        font-size: 20px;
+    }
+}
+h4 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+        font-size: 18px;
+    }
+}
+
+/**
+ * Links
+ */
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($link-color, 15%);
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.pdf, .pptx {
+    &:after {
+        // Font Awesome codes
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+        margin-left: 5px;
+    }
+}
+.pdf:after {
+  content: "\f1c1";
+  color: #cc0000;
+}
+.pptx:after {
+  content: "\f1c4";
+  color: #d24625;
+}
+
+/*
+ * Break
+ */
+hr {
+  margin: $spacing-unit 0;
+  border: 0;
+  border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid white;
+}
