@@ -27,9 +27,12 @@ Journals/Book Chapters
       , {{ pub.published-by }}
       , {{ pub.published-in }}
       {% if pub.note %}, ( {{ pub.note }} ){% endif %}
+        <br>
       {% if pub.file %}
-        {% assign type = pub.file | split: '.' %}
-        <a href=" {{ pub.file }}" class="{{ type.last }}"></a>
+            <a href = "{{ pub.file }}" target="_blank"> [PDF] </a>
+      {% endif %}
+        {% if pub.bibtext %}
+            <a href = "{{ pub.bibtext }}" target="_blank"> [Bibtext] </a>
       {% endif %}
     </p>
   </li>
@@ -57,9 +60,12 @@ Conferences/Workshops
       , {{ pub.published-in }}
       , {{ pub.venue }}
       {% if pub.note %}, ( {{ pub.note }} ){% endif %}
+        <br>
       {% if pub.file %}
-        {% assign type = pub.file | split: '.' %}
-        <a href=" {{ pub.file }}" class="{{ type.last }}"></a>
+            <a href = "{{ pub.file }}" target="_blank"> [PDF] </a>
+      {% endif %}
+        {% if pub.bibtext %}
+            <a href = "{{ pub.bibtext }}" target="_blank"> [Bibtext] </a>
       {% endif %}
     </p>
   </li>
