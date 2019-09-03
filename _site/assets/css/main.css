@@ -230,7 +230,7 @@ hr {
  */
 .site-header {
   position: relative;
-  background: #1212A0  top center no-repeat fixed; }
+  background: #5c584f url(/assets/img/sprites/lab_header.jpg) top center no-repeat fixed; }
 
 .site-title {
   float: left;
