@@ -1,0 +1,11 @@
+title: Cyber-Physical Systems Security Lab
+description: > #
+    The CyPhy Lab is a part of the Information Assurance (IA) program with Dr. Irfan Ahmed serving as lab director.
+
+baseurl: ""
+url: "http://cyphy.cs.uno.edu"
+markdown: kramdown
+
+collections:
+  - people
+  - publications
