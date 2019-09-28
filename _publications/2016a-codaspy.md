@@ -8,7 +8,7 @@ published-in: March 2016
 year: 2016
 abbrv: [CODASPY]
 venue: New Orleans, LA
-note: Outstanding Poster Award
+note: "**Outstanding Poster Award**"
 authors:
   - Aisha Ibrahim Ali-Gombe
   - Irfan Ahmed

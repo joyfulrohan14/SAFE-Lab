@@ -1,7 +1,7 @@
 ---
 
 date: 2012-09-01
-title: ModChecker: Kernel Module Integrity Checking in the Cloud Environment
+title: "ModChecker: Kernel Module Integrity Checking in the Cloud Environment"
 file: http://www.people.vcu.edu/~iahmed3/publications/modchecker-2012.pdf
 type: conference
 published-by: In 4th International Workshop on Security in Cloud Computing (CloudSec'12), In conjunction with the 41st International Conference on Parallel Processing (ICPP'12)
