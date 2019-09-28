@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="wrapper">
     <section class="info">
-        <a href="http://www.uno.edu" title="UNO Homepage"><img alt="UNO logo" src="/assets/img/sprites/uno_logo.png" width="309.5" height="90.5"></a>
+        <a href="http://www.vcu.edu" title="VCU Homepage"><img alt="VCU logo" src="/assets/img/sprites/vcu_logo.png" width="309.5" height="90.5"></a>
         <div class="float-right">
             <p>
                 East Engineering Builing Room E4255 <br>
@@ -14,15 +14,17 @@
         <p>
         {% assign navbar-elements = (site.pages | sort: 'navbar-index')%}
         {% for nav in navbar-elements %}
+        {% if nav.navbar-index %}
             {% if nav.title %}
             <a class="page-link" href="{{ nav.url | prepend: site.baseurl }}">{{ nav.title }}</a>
             {% endif %}
+        {% endif %}
         {% endfor %}
         </p>
     </section>
     <section class="copy">
         <p>&copy; 2019 Security and Forensics Engineering Lab</p>
-        <p class="me"><a>design by Rohan Ray</a></p>
     </section>
   </div>
 </footer>
+

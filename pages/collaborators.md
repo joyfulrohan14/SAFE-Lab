@@ -10,6 +10,7 @@ We maintain the following list of collaborators to acknowledge their contributio
 - Zhiqiang Lin, Ohio State University
 - Carl Weems, Iowa State University
 - Cynthia Lee, Stanford University
+- Juan Lopez Jr, Oak Ridge National Laboratory
 - Ye Li, Bradley University
 - Latifur Khan, University of Texas at Dallas
 - Vassil Roussev, University of New Orleans
@@ -19,6 +20,5 @@ We maintain the following list of collaborators to acknowledge their contributio
 - Carol Fung, Virginia Commonwealth University
 - Sajal Bhatia, Sacred Heart University
 - Cenk Erdil, Sacred Heart University
-- Juan Lopez Jr, Oak Ridge National Laboratory
 - Jared Smith, Oak Ridge National Laboratory
 

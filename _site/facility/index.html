@@ -24,7 +24,7 @@
   <div class="wrapper">
       
       
-    <img src="/assets/img/sprites/SAFE_LOGO.png"  width="600" height="600" class="center">
+    <img src="/assets/img/sprites/SAFE_LOGO.png"  width="400" height="300" class="center">
 
       
           
@@ -127,7 +127,101 @@
   </header>
 
   <div class="post-content">
-    <p>The git repo of the lab can be found <a href="https://gitlab.com/safelab">here.</a></p>
+    <p>The git repo of the lab can be found at <a href="https://gitlab.com/safelab">https://gitlab.com/safelab</a>. The contents are organized into the following topics and sub-topics.</p>
+
+<h3 id="industrial-control-system-security-and-forensics">Industrial Control System Security and Forensics</h3>
+<p><a href="#control">Control Logic Attack Datasets</a> <br />
+<a href="#shade">Shade Tool for Deep Packet Inspection</a><br />
+<a href="#clik">CLIK Toolkit for Attacking Control Logic with Decompilation and Virtual PLC</a><br /></p>
+
+<h3 id="cybersecurity-education">Cybersecurity Education</h3>
+<p><a href="#peer">Peer Instruction</a><br />
+<a href="#concept">Concept Maps</a><br />
+<a href="#vmi">Virtual Machine Introspection (VMI) for OS Kernel and Application Security</a><br /></p>
+
+<hr />
+
+<h1><center>Industrial Control System Security and Forensics</center></h1>
+
+<p><a name="control"></a></p>
+
+<h3 id="control-logic-attack-datasets">Control Logic Attack Datasets</h3>
+
+<p>Remote control-logic injection attacks on programmable logic controllers  (PLCs) impose critical threats to industrial control system(ICS) environments. For instance, Stuxnet infects the control logic of Siemens  S7-300  PLC to sabotage nuclear plants. We present two new stealthy control-logic injection attacks:  1)  Data  Execution and  2)  Fragmentation and  Noise Padding. Data Execution attack subverts signatures (based-on packet-header fields) by transferring control logic to the data blocks of a PLC and then, changes the PLC’s system control flow to execute the attacker’s logic. Fragmentation and Noise Padding attack subverts deep packet inspection (DPI) by appending a sequence of padding bytes in control logic packets while keeping the size of the attacker’s logic in packet payloads significantly small.</p>
+
+<p>We have created the attack datasets for Schneider Electric’s Modicon M221 PLC and Allen-Bradley’s MicroLogix 1400 PLC and released them under the MIT license at <a href="https://gitlab.com/safelab/control-logic-attack-datasets" target="_blank">https://gitlab.com/safelab/control-logic-attack-datasets</a></p>
+
+<hr />
+
+<p><a name="shade"></a></p>
+
+<h3 id="shade-tool-for-deep-packet-inspection">Shade tool for Deep Packet Inspection</h3>
+
+<p>We have developed Shade, a novel shadow memory technique that observes the network traffic to maintain a local copy of the current state of a PLC memory. To analyze the memory contents, Shade employs a classification algorithm with 42 unique features categorized into five types at different semantic levels of a control logic code, such as number of rungs, number of consecutive decompiled instructions, and n-grams. We evaluated Shade against control logic injection attacks (i.e., data execution, and fragmentation and noise padding) on two PLCs, Modicon M221 and MicroLogix 1400 from two ICS vendors, Schneider electric and Allen-Bradley, respectively.</p>
+
+<p>We have released the tool, which is available under the MIT license at <a href="https://gitlab.com/safelab/shade-tool-for-deep-packet-inspection" target="_blank">https://gitlab.com/safelab/shade-tool-for-deep-packet-inspection</a></p>
+
+<hr />
+
+<p><a name="clik"></a></p>
+
+<h3 id="clik-toolkit-for-attacking-control-logic-with-decompilation-and-virtual-plc">CLIK Toolkit for Attacking Control Logic with Decompilation and Virtual PLC</h3>
+
+<p>CLIK is a  new  remote  attack toolkit on  the  control  logic  of  a  programmable  logic  controller  (PLC) in  industrial  control  systems.  It   modifies   the control  logic  running  in  a  remote  target  PLC  automatically  to disrupt  a  physical  process. CLIK also  employs  a  new  virtual PLC approach that hides the malicious modifications by engaging the  engineering  software  with  a  captured  network  traffic  of  the original  (uninfected)  control  logic.  It  is  fully  implemented  on real  hardware/software  used  in  industrial  settings. CLIK consists  of  four  phases  and  takes  less  than  a  minute to  complete  an  attack  cycle.  As  part  of  the  implementation, we  found  a  critical  (zero-day)  vulnerability  in  the  password authentication  mechanism  of  a  target  PLC,  which  allows  the attacker  to  overwrite  password  hash  in  the  PLC  during  the authentication process and gain access to the (protected) control logic. For more details, check out ICS-CERT link, https://ics-cert.us-cert.gov/advisories/ICSA-18-240-01</p>
+
+<p>We have released the toolkit, which is available under the MIT license at <a href="https://gitlab.com/safelab/clik" target="_blank">https://gitlab.com/safelab/clik</a></p>
+
+<hr />
+
+<h1><center>Cybersecurity Education</center></h1>
+
+<p><a name="peer"></a></p>
+
+<h3 id="peer-instruction">Peer Instruction</h3>
+
+<p>Peer instruction is a well-documented student-centric teaching approach. It encourages each student to actively participate during lectures via structured conceptual questions, to which each student has to reply and then discuss with fellow students. It is markedly different from a traditional lecture-centric method, where, as a common practice, students are asked informal questions during lectures, which typically engages only a few highly motivated students. Peer instruction is effective in engaging students across a variety of classes sizes, from large to small.</p>
+
+<p>We have developed and released the peer instruction questions for three cybersecurity courses under the MIT license at <a href="https://gitlab.com/safelab/peer-instruction-for-cybersecurity-education" target="_blank">https://gitlab.com/safelab/peer-instruction-for-cybersecurity-education</a>:</p>
+
+<ul>
+  <li>Introduction to Computer Security,</li>
+  <li>Network Penetration Testing</li>
+  <li>Digital Forensics</li>
+</ul>
+
+<p>The material is also hosted by <a href="https://www.peerinstruction4cs.org" target="_blank">https://www.peerinstruction4cs.org</a></p>
+
+<hr />
+
+<p><a name="concept"></a></p>
+<h3 id="concept-maps">Concept Maps</h3>
+
+<p>The concept map is a graphical tool to represent concepts and the relationships among them on a particular topic. The mapping organizes the concepts in a hierarchy, with the most general ones at the top of the map and the most specific concepts at the bottom. The concepts are connected through arrows (or links) and propositions - a word or phrase describing the link. The concept mapping is a cognitively intensive task that examines the level of a student’s understanding of concepts. It is particularly useful for in-class activities and homework assignments and offers opportunities to improve the effectiveness of the instruction.</p>
+
+<p>Concept mapping can be used to measure the level of a student’s understanding of cybersecurity concepts throughout the course, via Concept Map-based exercises. In particular, a poorly constructed (by a student) map that has missing links and gaps in logic, or incorrect information can allow the instructor to quickly correct misconceptions developed by a student. Conversely, instructors can use a correct map in class as the basis for in-class discussion. The map requires students to actively build their understanding of foundational concepts, and allow them to reason about the bigger picture and the connections among concepts.</p>
+
+<p>We have developed and released the concept maps for three cybersecurity courses under the MIT license at <a href="https://gitlab.com/safelab/concept-maps-for-cybersecurity-education" target="_blank">https://gitlab.com/safelab/concept-maps-for-cybersecurity-education</a>:</p>
+
+<ul>
+  <li>Introduction to Computer Security,</li>
+  <li>Network Penetration Testing</li>
+  <li>Digital Forensics</li>
+</ul>
+
+<p>The material is also hosted by <a href="https://clark.center" target="_blank">https://clark.center</a>, a project supported by the National Security Agency (NSA).</p>
+
+<hr />
+
+<p><a name="vmi"></a></p>
+<h3 id="virtual-machine-introspection-vmi-for-os-kernel-and-application-security">Virtual Machine Introspection (VMI) for OS Kernel and Application Security</h3>
+
+<p>System virtualization provides a virtual machine introspection (VMI) capability to examine the system resources of a guest VM, such as physical memory, and hard disk from a privileged VM, directly from outside of the VM. In our view, VMI is a powerful functionality to improve the state-of-the-art of cybersecurity hands-on exercises with the goal of providing a holistic view and more insight into students.</p>
+
+<p>We have developed and released a VMI toolkit that is able to access the physical memory of a VM directly from outside the box, and provide the capability of studying not only the user level attacks and defenses, but also the kernel level attacks and defenses. For example, with our VMI toolkit, students can directly manipulate the content of the memory for the demonstration of the underlying computer security concepts. Previously, when performing a traditional hands-on exercise, students ran (benign/malicious) software that eventually made changes in the physical memory, but the changes were transparent to students. Our VMI toolkit allows students to perform such essential changes directly in the memory, and then observe their intended behavior outside the VM. Meanwhile, students can also use our toolkit to perform DKOM attack by modifying the pointers in the process doubly-linked list in memory, and then observe the effect within VM that the process of interest is not visible in the process list.</p>
+
+<p>The toolkit is available under the MIT license at  <a href="https://gitlab.com/safelab/vmi-toolkit-for-cybersecurity-education" target="_blank">https://gitlab.com/safelab/vmi-toolkit-for-cybersecurity-education</a></p>
+
+<hr />
 
 
   </div>
@@ -140,7 +234,7 @@
     <footer class="site-footer">
   <div class="wrapper">
     <section class="info">
-        <a href="http://www.uno.edu" title="UNO Homepage"><img alt="UNO logo" src="/assets/img/sprites/uno_logo.png" width="309.5" height="90.5"></a>
+        <a href="http://www.vcu.edu" title="VCU Homepage"><img alt="VCU logo" src="/assets/img/sprites/vcu_logo.png" width="309.5" height="90.5"></a>
         <div class="float-right">
             <p>
                 East Engineering Builing Room E4255 <br>
@@ -153,64 +247,82 @@
         <p>
         
         
-            
         
-            
-            <a class="page-link" href="/publications/by-date/">Publications</a>
-            
         
-            
         
-            
+        
+        
+        
+        
+        
         
             
             <a class="page-link" href="/">Home</a>
             
         
+        
+        
             
             <a class="page-link" href="/people/">People</a>
             
+        
+        
         
             
             <a class="page-link" href="/publications/">Publications</a>
             
         
+        
+        
             
             <a class="page-link" href="/projects/">Research</a>
             
+        
+        
         
             
             <a class="page-link" href="/facility/">Releases</a>
             
         
+        
+        
             
             <a class="page-link" href="/news/">News</a>
             
+        
+        
         
             
             <a class="page-link" href="/collaborators/">Collaborators</a>
             
         
+        
+        
             
             <a class="page-link" href="/openings/">Open Positions</a>
             
+        
+        
         
             
             <a class="page-link" href="/resources/">Resources</a>
             
         
+        
+        
             
             <a class="page-link" href="/contact/">Contact</a>
             
+        
         
         </p>
     </section>
     <section class="copy">
         <p>&copy; 2019 Security and Forensics Engineering Lab</p>
-        <p class="me"><a>design by Rohan Ray</a></p>
     </section>
   </div>
 </footer>
+
 
 
   </body>
