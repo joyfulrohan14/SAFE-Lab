@@ -7,6 +7,8 @@ bibtext: https://dblp.uni-trier.de/rec/bibtex/journals/computer/AhmedONR12
 type: journal
 published-by: "IEEE Computer, Vol. 45, No. 12"
 published-in: December 2012
+year: 2012
+abbrv: [IEEE Computer]
 authors:
   - Irfan Ahmed
   - Sebastian Obermeier

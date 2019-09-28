@@ -18,6 +18,8 @@ navbar-index: 8
 - ACM Transactions on Privacy and Security (TOPS)
 - IEEE Transactions on Information Forensics and Security
 
+-----------------
+
 <a name="conf"></a>
 <h3> List of Cybersecurity Conferences </h3>
 <p>(Month of Submission Deadline, and Abbreviation and Full Name)</p>

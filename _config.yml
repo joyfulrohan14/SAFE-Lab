@@ -9,4 +9,3 @@ markdown: kramdown
 collections:
   - people
   - publications
-  - collection
