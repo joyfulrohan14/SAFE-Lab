@@ -1,25 +1,8 @@
 ---
 layout: default
-title: Resources
-permalink: /resources/
-navbar-index: 8
 ---
 
-<h1>Resources</h1>
-
-
-<a href="#journal">List of Cybersecurity Journals</a> <br>
-<a href="#conf">List of Cybersecurity Conferences</a> <br>
-
------------------
-
-<a name="journal"></a>
-<h3>List of Cybersecurity Journals </h3>
-- ACM Transactions on Privacy and Security (TOPS)
-- IEEE Transactions on Information Forensics and Security
-
-<a name="conf"></a>
-<h3> List of Cybersecurity Conferences </h3>
+<h3> Cybersecurity Conferences </h3>
 <p>(Month of Submission Deadline, and Abbreviation and Full Name)</p>
 
 - (January) - <span style="color:red">DFRWS</span> (Digital Forensic Research Conference)
@@ -44,5 +27,3 @@ navbar-index: 8
 - (Monthly) - <span style="color:red">IEEE S&P</span> (IEEE Symposium on Security and Privacy)
 - (November) - <span style="color:red">Security</span> (Usenix Security Symposium)
 - (November) - <span style="color:red">IEEE EuroS&P</span> (IEEE European Symposium on Security and Privacy)
-
------------------

@@ -1,11 +1,12 @@
-title: Cyber-Physical Systems Security Lab
+title: Security and Forensics Engineering (SAFE) Lab 
 description: > #
-    The CyPhy Lab is a part of the Information Assurance (IA) program with Dr. Irfan Ahmed serving as lab director.
+    Security and Forensics Engineering (SAFE) Lab 
 
 baseurl: ""
-url: "http://cyphy.cs.uno.edu"
+url: "http://safe.lab.vcu.edu"
 markdown: kramdown
 
 collections:
   - people
   - publications
+  - collection
