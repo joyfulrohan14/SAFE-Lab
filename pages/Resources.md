@@ -24,6 +24,7 @@ navbar-index: 8
 <h3> List of Cybersecurity Conferences </h3>
 <p>(Month of Submission Deadline, and Abbreviation and Full Name)</p>
 
+- (Monthly) - <span style="color:red">IEEE S&P</span> (IEEE Symposium on Security and Privacy)
 - (January) - <span style="color:red">DFRWS</span> (Digital Forensic Research Conference)
 - (January) - <span style="color:red">IFIP SEC</span> (IFIP TC-11 International Conference on Information Security and Privacy Protection)
 - (January) - <span style="color:red">AsiaCCS</span> (ACM ASIA Conference on Computer and Communications Security)
@@ -43,7 +44,6 @@ navbar-index: 8
 - (September) - <span style="color:red">ICSS</span> (Industrial Control System Security Workshop)
 - (September) - <span style="color:red">ACM CCS</span> (ACM Conference on Computer and Communications Security)
 - (September) - <span style="color:red">NDSS</span> (Network and Distributed System Security Symposium)
-- (Monthly) - <span style="color:red">IEEE S&P</span> (IEEE Symposium on Security and Privacy)
 - (November) - <span style="color:red">Security</span> (Usenix Security Symposium)
 - (November) - <span style="color:red">IEEE EuroS&P</span> (IEEE European Symposium on Security and Privacy)
 

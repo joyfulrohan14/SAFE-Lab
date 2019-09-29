@@ -51,7 +51,7 @@ navbar-index: 0
 -----------------
 **Security and Forensics Engineering (SAFE) Lab** is founded and directed by Dr. Irfan Ahmed in the Department of Computer Science at the College of Engineering at Virginia Commonwealth University. 
 
-The lab focuses on a broad field of <span style="color:red">**Cybersecurity**</span> including the following:
+The lab focuses on a broad field of <span style="color:red">**Cybersecurity**</span> including the following research areas:
 
 * **Digital Forensics**
 	- Memory Forensics
@@ -68,7 +68,7 @@ The lab focuses on a broad field of <span style="color:red">**Cybersecurity**</s
 
 * **Smart Manufacturing Security**
     - Digital Twin
-    - 3D Printers</li>
+    - 3D Printers
     - Internet of Things
 
 
