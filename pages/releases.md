@@ -5,7 +5,7 @@ permalink: /facility/
 navbar-index: 4
 ---
 
-The git repo of the lab can be found at <a href = "https://gitlab.com/safelab">https://gitlab.com/safelab</a>. The contents are organized into the following topics and sub-topics.
+The git repo of the lab is available at <a href = "https://gitlab.com/safelab">https://gitlab.com/safelab</a>. The contents are organized into the following topics and sub-topics.
 
 
 ### Industrial Control System Security and Forensics

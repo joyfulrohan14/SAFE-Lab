@@ -25,131 +25,174 @@ We are involved in a number of research areas in cybersecurity. Their references
 <a href="#cybe">Human Aspects of Cybersecurity</a><br>
 <a href="#cy">Cybersecurity Education</a><br>
 
-
+---------------
 
 <a name="cyb"></a>
-
 <h1><center>Digital Forensics</center></h1>
----------------
+
 <b>Memory Forensics</b>
-- [AAFS], Kernel Pool Monitoring to Support MalwareForensics in a Cloud Computing Environment
-- [AAFS], Compressed RAM and Live Forensics
-- [ISC], Integrity Checking of Function Pointers in Kernel Pools via Virtual Machine Introspection
-- [IFIP DF], Integrity Checking of Interrupt Descriptor Table in Cloud Environments
-- [ACSAC LAW], Atomizer:  Fast, Scalable and Lightweight Heap Analyzer for Virtual Machines in a Cloud Environment
-- [ICPP CloudSec] ModChecker:  Kernel Module Integrity Checking in the Cloud Environment
-- [AAFS], Live Forensic Analysis of Kernel Code for Malware Detection in Cloud Computing Environments
+- Kernel Pool Monitoring and the Integrity Checking of Function Pointers
+<a href="http://www.people.vcu.edu/~iahmed3/publications/isc_2013.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Fast, Scalable and Lightweight Process Heap Analyzer
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ifipwg119-2013_preprint.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Compressed RAM and Live Forensics
+- Integrity Checking of OS Kernel Data Structures such as Interrupt Descriptor Table 
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ifipwg119-2013_preprint.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Kernel Module Integrity Checking
+<a href="http://www.people.vcu.edu/~iahmed3/publications/modchecker-2012.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+
 
 <b>Code Fingerprinting</b>
-- [DFRWS], Leveraging Relocations in Kernel ELF-binaries for Linux Kernel Version Identification
-- [AAFS], Memory Forensics:  ReliableIn-Memory Code Identification Using Relocatable Pointers
-- [ACSAC PPREW], OpSeq:  Android Malware Fingerprinting
-- [CODASPY], Robust Fingerprinting for Relocatable Code
-- [DFRWS] Image-Based Kernel Fingerprinting
+- Leveraging Relocations in Kernel ELF-binaries for Linux Kernel Version Identification
+<a href="http://www.people.vcu.edu/~iahmed3/publications/dfrws-2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Robust Fingerprinting for Relocatable Code
+<a href="http://www.people.vcu.edu/~iahmed3/publications/codaspy-2015.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Android Malware Fingerprinting
+<a href="http://www.people.vcu.edu/~iahmed3/publications/pprew-2015.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Image-Based Kernel Fingerprinting using Similarity Hashing
+<a href="http://www.people.vcu.edu/~iahmed3/publications/DFRWS_2014.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
 
 
 <b>Cloud Forensics </b>
-- [INTERPOL Digital 4N6 Pulse], Cloud Forensics - A True Game Changer
-- [Book Chapter, IGI Global], Analysis of Cloud Digital Evidence
-- [Elsevier DI], Cloud Forensics-Tool Development Studies & Future Outlook
-- [IFIP DF], Forensic Acquisition of Cloud Drives
+- Cloud Forensics - A True Game Changer
+- Analysis of Cloud Digital Evidence
+<a href="http://www.people.vcu.edu/~iahmed3/publications/igi-book-chap-2017.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Cloud Forensics-Tool Development Studies & Future Outlook
+<a href="http://www.people.vcu.edu/~iahmed3/publications/di-cloud-forensics-2016.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Forensic Acquisition of Cloud Drives
+<a href="https://arxiv.org/pdf/1603.06542v1.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
 
 
 <b>File Type/Encoding Identification</b>
-- [IETE TR], Content-based File-type Identification using Cosine Similarity and a Divide-and-Conquer approach
-- [IFIP DF], Fast Content-based File-type Identification
-- [ACM SAC], Fast File-type Identification
-- [ACISP], On Improving the Accuracy and Performance of Content-based File-type Identification
+- Content-based File-type Identification using Cosine Similarity and a Divide-and-Conquer approach
+<a href="http://www.people.vcu.edu/~iahmed3/publications/IETE-2010.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Fast Content-based File-type Identification
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ifipwg119-2011_preprint.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Fast File-type Identification
+<a href="http://www.people.vcu.edu/~iahmed3/publications/acmsac_2010.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- On Improving the Accuracy and Performance of Content-based File-type Identification
+<a href="http://www.people.vcu.edu/~iahmed3/publications/acisp-2009.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
 
-
+---------------
 
 
 
 <a name="ind"></a>
 
 <h1><center>Industrial Control System (ICS) Security and Forensics</center></h1>
----------------
 
 <b>Exploring New Attack Vectors and Vulnerabilities</b>
-- [IFIP SEC], Control Logic Injection Attacks on Industrial Control Systems
-- [NDSS BAR], CLIK on PLCs! Attacking Control Logic with Decompilation and Virtual PLC
-- [CODASPY], Denial of Engineering Operations Attacks in Industrial Control Systems
+- Control Logic Injection Attacks on Industrial Control Systems
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ifip_sec_2019_attack.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Attacking Control Logic with Decompilation and Virtual PLC
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ndss_bar_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Denial of Engineering Operations Attacks in Industrial Control Systems
+<a href="http://www.people.vcu.edu/~iahmed3/publications/acm-codaspy-2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
 - [ICS-CERT] ICS Advisory (ICSA-18-240-01) <a href="https://www.us-cert.gov/ics/advisories/ICSA-18-240-01">Schneider Electric Modicon M221</a>
 
 <b>Attack Detection, Analysis, and Recovery</b>
-- [DIMVA], Overshadow PLC to Detect Remote Control-Logic Injection Attacks
-- [ICRC], Gap Analysis of Intrusion Detection in Smart Grids
+- Overshadow PLC to Detect Remote Control-Logic Injection Attacks
+<a href="http://www.people.vcu.edu/~iahmed3/publications/dimva_2019_shade.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Gap Analysis of Intrusion Detection in Smart Grids
+<a href="http://www.people.vcu.edu/~iahmed3/publications/smartGrid-2011.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+
 
 <b>Digital Forensics Readiness, Tools and Techniques</b>
-- [ISC], Automated Reconstruction of Control Logic for Programmable Logic Controller Forensics
-- [AAFS], A Ladder Logic Decompiler for Supervisory Control and Data Acquisition (SCADA) Network Forensics
-- [CODASPY], Denial of Engineering Operations Attacks in Industrial Control Systems
-- [AAFS], Supervisory Control and Data Acquisition (SCADA) Forensics: Network Traffic Analysis for Extracting a Programmable Logic Controller (PLC) System and Programming 
+- Automated Reconstruction of Control Logic for Programmable Logic Controller Forensics
+<a href="http://www.people.vcu.edu/~iahmed3/publications/2019_Similo_ISC.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Denial of Engineering Operations Attacks in Industrial Control Systems
+<a href="http://www.people.vcu.edu/~iahmed3/publications/acm-codaspy-2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Programmable Logic Controller Forensics
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ieee_sp_2017.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- SCADA Network Forensics of the PCCC Protocol
+<a href="http://www.people.vcu.edu/~iahmed3/publications/dfrws-2017.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- A SCADA System Testbed for Cybersecurity and Forensic Research and Pedagogy
+<a href="http://www.people.vcu.edu/~iahmed3/publications/icss16-scada-testbed.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- SCADA Systems: Challenges for Forensic Investigators
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ieee_computer_2012.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
 
-<b>Logic Files</b>
-- [IEEE S&P], Programmable Logic Controller Forensics
-- [DFRWS], SCADA Network Forensics of the PCCC Protocol
-- [ACSAC ICSS], A SCADA System Testbed for Cybersecurity and Forensic Research and Pedagogy
-- [IEEE Computer], SCADA Systems: Challenges for Forensic Investigators
+---------------
 
 
 <a name="sys"></a>
 
 <h1><center>System Virtualization Security</center></h1>
----------------
 
 <b>Hypervisor and Virtual Machine Introspection</b>
-- [WISA], Automatic Mitigation of Kernel Rootkits in Cloud Environments
-- [ISC], IntegrityChecking of Function Pointers in Kernel Pools via Virtual Machine Introspection
-- [IFIP DF], Integrity Checking of Interrupt Descriptor Table in Cloud Environments
-- [ICPP CloudSec] ModChecker:  Kernel Module Integrity Checking in the Cloud Environment
+- Automatic Mitigation of Kernel Rootkits in Cloud Environments
+<a href="http://www.people.vcu.edu/~iahmed3/publications/lncs-wisa-2017.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Integrity Checking of Function Pointers in Kernel Pools via Virtual Machine Introspection
+<a href="http://www.people.vcu.edu/~iahmed3/publications/isc_2013.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Integrity Checking of Interrupt Descriptor Table in Cloud Environments
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ifipwg119-2013_preprint.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- ModChecker:  Kernel Module Integrity Checking in the Cloud Environment
+<a href="http://www.people.vcu.edu/~iahmed3/publications/modchecker-2012.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
 
+---------------
 
 <a name="mal"></a>
 
 <h1><center>Malware</center></h1>
----------------
 
 <b>Software/Protocol Reverse Engineering</b>
-- [ISC], Automated Reconstruction of Control Logic for Programmable Logic Controller Forensics
-- [NDSS BAR], CLIK on PLCs! Attacking Control Logic with Decompilation and Virtual PLC
-- [CODASPY], Denial of Engineering Operations Attacks in Industrial Control Systems
+- Automated Reconstruction of Control Logic for Programmable Logic Controller Forensics
+<a href="http://www.people.vcu.edu/~iahmed3/publications/2019_Similo_ISC.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- CLIK on PLCs! Attacking Control Logic with Decompilation and Virtual PLC
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ndss_bar_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Denial of Engineering Operations Attacks in Industrial Control Systems
+<a href="http://www.people.vcu.edu/~iahmed3/publications/acm-codaspy-2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+
 
 <b>Malware Detection, Analysis, and Characterization</b>
-- [CODASPY], AspectDroid:  Android App Analysis System
-- [Book Chapter Springer], Distributed Denial of Service Attacks and Defense Mechanism:  Current Landscape and Future Directions
-- [WISA], Automatic Mitigation of Kernel Rootkits in Cloud Environments
-- [WiSec], Don’tTouch that Column:  Portable, Fine-Grained Access Control for Android’s Native Content Providers
-- [ISC], IntegrityChecking of Function Pointers in Kernel Pools via Virtual Machine Introspection
-- [IFIP DF], Integrity Checking of Interrupt Descriptor Table in Cloud Environments
-- [ICPP CloudSec] ModChecker:  Kernel Module Integrity Checking in the Cloud Environment
-- [Springer JCV], Classification of Packet Contents for Malware Detection
-- [ARES], Detection of Malcodes by Packet Classification
+- Distributed Denial of Service Attacks and Defense Mechanism:  Current Landscape and Future Directions
+<a href="http://www.people.vcu.edu/~iahmed3/publications/springer-book-chap-2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Automatic Mitigation of Kernel Rootkits in Cloud Environments
+<a href="http://www.people.vcu.edu/~iahmed3/publications/lncs-wisa-2017.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Portable, Fine-Grained Access Control for Android’s Native Content Providers
+<a href="http://www.people.vcu.edu/~iahmed3/publications/acm-wisec-2016.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Integrity Checking of Function Pointers in Kernel Pools via Virtual Machine Introspection
+<a href="http://www.people.vcu.edu/~iahmed3/publications/isc_2013.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Integrity Checking of Interrupt Descriptor Table in Cloud Environments
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ifipwg119-2013_preprint.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- ModChecker:  Kernel Module Integrity Checking in the Cloud Environment
+<a href="http://www.people.vcu.edu/~iahmed3/publications/modchecker-2012.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Classification of Packet Contents for Malware Detection
+<a href="http://www.people.vcu.edu/~iahmed3/publications/jcv-2011.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
 
+---------------
 
 <a name="cybe"></a>
 
 <h1><center>Human Aspects of Cybersecurity </center></h1>
----------------
 
 <b>Studying and Improving (In)secure Cyber Behavior of End Users</b>
-- [PLOS ONE], Susceptibility and Resilience to Cyber Threat:  Findings from a Scenario Decision Program to Measure Secure and Insecure Computing Behavior
-- [Taylor & Francis JCST], Self-reported secure and insecure cyber behaviour:  factor structure and associations with personality factors
-- [CODASPY], SPICE: A Software Tool for Bridging the Gap Between End-user’s Insecure CyberBehavior and Personality Traits
+- Susceptibility and Resilience to Cyber Threat: Findings from a Scenario Decision Program to Measure Secure and Insecure Computing Behavior
+<a href="http://www.people.vcu.edu/~iahmed3/publications/plos-2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Self-reported secure and insecure cyber behaviour: factor structure and associations with personality factors
+<a href="http://www.people.vcu.edu/~iahmed3/publications/tf-jcst-2017.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- SPICE: A Software Tool for Bridging the Gap Between End-user’s Insecure CyberBehavior and Personality Traits
+<a href="https://github.com/ahmirf/Susceptibility-and-Resilience-to-Cyber-Threat-SRCT" target="_blank">"https://github.com/ahmirf/Susceptibility-and-Resilience-to-Cyber-Threat-SRCTtarget"</a>
 
+---------------
 
 <a name="cy"></a>
 
 <h1><center>Cybersecurity Education</center></h1>
---------------
+
 
 <b>Pedagogical Techniques</b>
-- [CISSE], Problem-based Learning for Cybersecurity Education
-- [SIGCSE], Evaluation of Peer Instruction for Cybersecurity Education
-- [SIGCSE], Topological Scoring of Concept Maps for Cybersecurity Education
-- [IEEE S&P], Peer Instruction Teaching Methodology for Cybersecurity Education
-- [SIGCSE], Using Virtual MachineIntrospection for OS Kernel Security Education
-- [USENIX ASE], Peer Instruction for Digital Forensics
-- [USENIX ASE], Development of Peer Instruction Questions for CybersecurityEducation
+- Evaluation of Peer Instruction for Cybersecurity Education
+<a href="http://www.people.vcu.edu/~iahmed3/publications/sigcse-2018a.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Topological Scoring of Concept Maps for Cybersecurity Education
+<a href="http://www.people.vcu.edu/~iahmed3/publications/sigcse-2018b.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Peer Instruction Teaching Methodology for Cybersecurity Education
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ieee_sp_2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Using Virtual MachineIntrospection for OS Kernel Security Education
+<a href="http://www.people.vcu.edu/~iahmed3/publications/acm-sigcse-2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Peer Instruction for Digital Forensics
+<a href="http://www.people.vcu.edu/~iahmed3/publications/usenix-ase-2017.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
+- Development of Peer Instruction Questions for Cybersecurity Education
+<a href="http://www.people.vcu.edu/~iahmed3/publications/ase16-peer-instruction.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:15px;color:red"></i></a>
 
+--------------
 
