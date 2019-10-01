@@ -1,0 +1,162 @@
+I"�
+<h2 id="faculty">Faculty</h2>
+
+<section class="profile">
+  <img src="/assets/img/people/ahmed.jpg" alt="Photo of Dr. Irfan Ahmed" />
+  <div class="info">
+    <a href="http://people.vcu.edu/~iahmed3/"><h3>Dr. Irfan Ahmed</h3></a>
+    <h4>Assistant Professor</h4>
+    <p><ul>
+  <li>Department of Computer Science at VCU</li>
+  <li>Office: E4255, East Hall</li>
+  <li>Phone: 804-827-2561</li>
+  <li>Email: iahmed3@vcu.edu</li>
+  <li>Web: http://people.vcu.edu/~iahmed3</li>
+</ul>
+</p>
+  </div>
+</section>
+
+<h2 id="current-students">Current Students</h2>
+
+<section class="profile">
+  <img src="/assets/img/people/rais.jpg" alt="Photo of Muhammad Haris Rais" />
+  <div class="info">
+    <a href=""><h3>Muhammad Haris Rais</h3></a>
+    <h4>PhD Student</h4>
+    <p><ul>
+  <li>Research Areas: Smart Manufacturing, Internet of Things, Attack Detection and Recovery</li>
+  <li>Office: E2267, East Hall</li>
+  <li>Email: raismh@vcu.edu</li>
+</ul>
+
+</p>
+  </div>
+</section>
+
+<section class="profile">
+  <img src="/assets/img/people/qasim.jpg" alt="Photo of Syed Ali Qasim" />
+  <div class="info">
+    <a href=""><h3>Syed Ali Qasim</h3></a>
+    <h4>PhD Student</h4>
+    <p><ul>
+  <li>Research Areas: Digital Forensics, Industrial Control System, and Protocol Reverse Engineering</li>
+  <li>Office: E2267, East Hall</li>
+  <li>Email: qasimsa@vcu.edu</li>
+</ul>
+
+</p>
+  </div>
+</section>
+
+<hr />
+<h1><center>Past Students</center></h1>
+<center><font color="red"><b><p>Note that Dr. Irfan Ahmed (co-)supervised these students at his current and former institutions. We maintain this list to acknowledge their association with us.
+    </p></b></font></center>
+
+<hr />
+<h3 id="postdoctoral-research-associates">Postdoctoral Research Associates</h3>
+<ul>
+  <li><strong>Hyunguk Yoo</strong>
+    <ul>
+      <li>PhD from Ajou University, South Korea</li>
+      <li>Current employment: Assistant Professor at University of New Orleans</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="doctorate-research-assistants">Doctorate Research Assistants</h3>
+<ul>
+  <li><strong>Aisha Ibrahim Ali-Gombe</strong>
+    <ul>
+      <li>Thesis Title: Malware Analysis and Privacy Policy Enforcement Techniques for Android Applications</li>
+      <li>First employment: Assistant Professor at Towson University, MD</li>
+    </ul>
+  </li>
+  <li><strong>Eesa Alsolami</strong>
+    <ul>
+      <li>Thesis Title: Continuous Biometric Authentication: Keystroke Dynamics</li>
+      <li>First employment: Assistant Professor at University of Jeddah, Saudi Arabia</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="masters-research-assistants">Masters Research Assistants</h3>
+
+<ul>
+  <li><strong>Pranita Deshpande</strong>
+    <ul>
+      <li>Thesis Title: Assessment of Two Pedagogical Tools for Cybersecurity Education</li>
+      <li>Publications: ACM SIGCSE’19 (a), and ACM SIGCSE’19 (b)</li>
+    </ul>
+  </li>
+  <li><strong>Sharon Elizabeth Blake</strong>
+    <ul>
+      <li>Thesis Title: MAnanA: A Heuristic Scoring Framework for Concept Map Analysis in Cybersecurity Education</li>
+      <li>Publications: -</li>
+    </ul>
+  </li>
+  <li><strong>Sushma Kalle</strong>
+    <ul>
+      <li>Thesis Title: Semantic-aware Stealthy Control Logic Infection Attack</li>
+      <li>Publications: NDSS BAR’19, and DIMVA’19</li>
+    </ul>
+  </li>
+  <li><strong>Jonathan Grimm</strong>
+    <ul>
+      <li>Thesis Title: Automatic Mitigation of Kernel Rootkits in Cloud Environments</li>
+      <li>Publications: WISA’18</li>
+    </ul>
+  </li>
+  <li><strong>Saranyan Senthivel</strong>
+    <ul>
+      <li>Thesis Title: Automatic Forensic Analysis of PCCC Network Traffic Log</li>
+      <li>Publications: ACSAC ICSS’16, DFRWS’17, and CODASPY’18</li>
+    </ul>
+  </li>
+  <li><strong>William Eldon Johnson</strong>
+    <ul>
+      <li>Thesis Title: Development of Peer Instruction Material for a Cybersecurity Curriculum</li>
+      <li>Publications: ACSAC ICSS’16, USENIX ASE’16, and USENIX ASE’17</li>
+    </ul>
+  </li>
+  <li><strong>Anjila Tamrakar</strong>
+    <ul>
+      <li>Thesis Title: SPICE: A Software Tool for Studying End-user’s Insecure Cyber Behavior and Personality-traits}\</li>
+      <li>Publications: CODASPY’18</li>
+    </ul>
+  </li>
+  <li><strong>Dalbir Kaur Chhabra</strong>
+    <ul>
+      <li>Thesis Title: Feature selection and clustering for malicious and benign software characterization</li>
+      <li>Publications: -</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="undergraduate-research-assistants">Undergraduate Research Assistants</h3>
+
+<ul>
+  <li><strong>Jose Rene Berlioz Rivera</strong></li>
+  <li><strong>Shrey Dhungana</strong>
+    <ul>
+      <li>Publications: CODASPY’18</li>
+    </ul>
+  </li>
+  <li><strong>Nabeel Gulzar Rana</strong></li>
+  <li><strong>Manish Bhatt</strong>
+    <ul>
+      <li>Publications: WISA’17, SIGCSE’18, and DFRWS’18</li>
+    </ul>
+  </li>
+  <li><strong>Banan Ibrahim</strong></li>
+  <li><strong>Phillip Bradley Reason</strong></li>
+  <li><strong>Philip Schwartz</strong></li>
+</ul>
+:ET
